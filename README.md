@@ -54,7 +54,6 @@ Creates a new shortened URL.
   "message": "Link created successfully",
   "shortId": "a1b2c3d4",
   "shortUrl": "http://localhost:3000/a1b2c3d4",
-  "record": { ... }
 }
 ```
 
