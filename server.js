@@ -120,7 +120,7 @@ app.post("/shorten", rateLimiter, (req, res) => {
   res.status(201).json({
     message: "Link created successfully",
     shortId,
-    shortUrl: `http://localhost:3000/${shortId}`,
+    shortUrl: `https://shorturl-s6iv.onrender.com/${shortId}`,
     record,
   });
 });
